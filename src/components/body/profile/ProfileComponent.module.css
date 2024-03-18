@@ -1,0 +1,200 @@
+* {  
+    font-family: system-ui;
+}
+.account_container {
+    width: 83%;
+}
+.account_container p {
+    margin-left: 30px;
+}
+.dashboard {
+    font-size: 12px;
+    color: #999999;
+}
+.my_account {
+    font-size: 12px;
+    color: #2680EB;
+}
+.my_account_body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.account_card_container{
+    background-color: #fff;
+    padding: 0 24px;
+    margin: 0 30px;
+}
+.my_account_header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border-bottom: 1px solid #EBEDF2;
+}
+.my_profile_card {
+    border: 1px solid #EBEDF2;
+    padding-bottom: 10px;
+    padding-left: 24px;
+}
+.my_profile_card_header {
+    display: flex;
+    background-color: #f8f8f8;
+    height: 44px;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_profile {
+    display: flex;
+    gap: 33px;
+    padding-top: 15px;
+}
+.person_image {
+    position: relative;
+}
+.profile_edit {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+.profile_img {
+    height: 118px;
+    width: 118px;
+    border-radius: 50%;
+}
+.personal_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.person_name {
+    font-size: 18px;
+    color: #404040;
+    margin: 0px;
+}
+.person_designation p, .company_name p{
+    margin: 0px;
+    font-size: 12px;
+    color: #B2B2B2;
+}
+.person_designation div, .company_name div{
+    font-size: 14px;
+    color: #404040;
+}
+.about_me{
+font-size: 12px;
+color: #B2B2B2;
+}
+.about_content {
+    font-size: 14px;
+    color: #404040;
+}
+.my_profile_settings_container {
+    display: flex;
+    gap: 7px;
+}
+.account_settings,  .application_settings{
+    width: 50%;
+    border: 1px solid #EBEDF2;
+}
+.account_settings_header, .application_settings_header {
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    align-items: center;
+    padding-left: 24px;
+}
+.account_info {
+    display: flex;
+    padding: 36px 0px 36px 18px;
+    gap: 50px;
+}
+.account_info p {
+    margin: 0px;
+}
+.application_info {
+    padding: 20px 0px 0px 24px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.application_info p{
+    margin: 0px;
+}
+.phone p, .designation p, .name p{
+    font-size: 12px;
+    color: #B2B2B2;
+}
+
+.phone div, .designation, div .name div{
+    color: #404040;
+    font-size: 14px;
+}
+.phone {
+    margin-top: 20px;
+}
+.change_password {
+    font-size: 14px;
+    color: #2680EB;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.receive_job {
+    font-size: 12px;
+    color: #B2B2B2;
+}
+.app_my_dashboard, .email{
+font-size: 12px;
+color: #484848;
+}
+.note{
+    font-size: 12px;
+    color: #B2B2B2;
+}
+.app_my_dashboard div{
+    border:2px solid#99CA3B;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.email div{
+    border:2px solid #B2B2B2;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.app_my_dashboard, .email {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.my_profile_card_header figure, .account_settings figure, .application_settings figure{
+    margin: 0px;
+    margin-right: 10px;
+}
+@media (max-width: 767px) {
+    .dashboard_container{
+        display: none;
+    }
+    .account_container {
+        width: 100%;
+    }
+    .account_card_container {
+        margin: 0px;
+        padding: 0px 8px;
+    }
+    .my_profile_card_header figure {
+        margin: 0px;
+        margin-right: 3px;
+    }
+    .my_profile_settings_container {
+        flex-direction: column;
+    }
+    .account_settings, .application_settings {
+        width: 100%;
+    }
+}

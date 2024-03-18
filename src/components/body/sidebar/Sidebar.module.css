@@ -1,0 +1,79 @@
+.sidebar_container {
+    width: 17%;
+    height: 81vh;
+    background-color: #404040;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 15px;
+    gap:30px;
+}
+.items_container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 0px;
+}
+.hp_container {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'Open Sans';
+}
+.sidebar_container p {
+    margin: 0px;
+}
+.hp_img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.Hawlet_Container {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Open Sans, Light';
+}
+
+.items_container li {
+    display: flex;
+    gap: 18px;
+    font-family: 'Open Sans, Regular';
+    color: #B2B2B2;
+    font-size: 16px;
+    align-items: center;
+}
+
+.contact_container {
+    font-family: 'Open Sans, SemiBold';
+    font-size: 12px;
+    color: #99CA3B;
+}
+.contact_container p {
+    font-family: 'Open Sans, Regular'
+}
+
+.Hawlet_Container {
+    position: relative;
+}
+.grater_than {
+    color: #99CA3B;
+    position: absolute;
+    right: 10px;
+    top: -3px;
+}
+
+.active_my_account {
+    color: #99CA3B;
+    background-color: black;
+    padding: 10px;
+    border-left: 5px solid #99CA3B;
+    margin-left: -14px;
+}
+
+
+@media (max-width: 767px) {
+    .sidebar_container{
+        display: none;
+    }
+}

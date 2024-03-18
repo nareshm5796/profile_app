@@ -1,0 +1,17 @@
+.hide_nav_card{
+    display: none;
+}
+.my_active_account {
+    color: #99CA3B;
+}
+@media (max-width: 767px) {
+    .hide_nav_card{        
+        display: flex;
+        list-style: none;
+        border-radius: 2px;
+        padding: 12px;
+        background-color: #fff;
+        font-size: 12px;
+        justify-content: space-between;
+    }
+}

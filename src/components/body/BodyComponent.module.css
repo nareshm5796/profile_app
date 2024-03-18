@@ -1,0 +1,18 @@
+.body_container {
+    display: flex;
+    background-color: #f1f2f7;
+    height: 88vh;
+    flex-direction: column;
+}
+.body {
+    display: flex; 
+}
+
+@media (max-width: 767px) {
+    .body {
+        margin: 0px 15px;
+    }
+    .body_container {
+        height: auto;
+    }
+}
